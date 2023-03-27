@@ -1,0 +1,62 @@
+body{
+    background-color: darkolivegreen;
+
+}
+
+@keyframes Box1{
+    0% {
+        background-color: white; top: 10px; left: 10px;
+    }
+
+    25% {
+        background-color: rgb(0, 0, 0);
+        top: 10px; left: 200px;
+    }
+
+    50% {
+        background-color: rgb(0, 71, 125);
+        top: 200px; left: 200px;
+    }
+    75% {
+        background-color: rgb(172, 2, 160);
+        top: 200px; left: 10px;
+    }
+    100% {background-color: red;
+        top: 10px; left: 10px;    
+    }
+    
+}
+
+.box1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    animation-name: Box1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.box2{
+    position: relative;
+    top: 300px;
+    
+    transform: translate(0, 300px);
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    background-color: darkred;
+    animation-name: Box2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Box2 {
+    0%{background-color: aqua; top:0px; left:10px; transform: scale(0.5,0.5), skew(20deg);   }
+    25%{background-color: beige; transform: scale(2,2);}
+    50%{background-color: aqua; top: 0px; left: 300px; transform: scale(0.5,0.5);}
+
+    75%{background-color: beige; transform: scale(2,2);}
+    100%{background-color: aqua; top:0px; left:10px; transform: scale(0.5,0.5);}
+}
+

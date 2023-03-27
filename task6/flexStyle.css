@@ -1,0 +1,95 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#home{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5em  solid black;
+    
+    padding: 3em;
+    height: fit-content;
+}
+
+.top-main{
+    display: flex;
+    flex-direction: column; 
+    justify-items: center;
+    text-align: center;
+    font-size: 70px;
+    background-color: rgb(255, 89, 89);
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#about{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5em  solid black;
+    
+    padding: 3em;
+    height: fit-content;
+}
+
+#contact{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5em  solid black;
+    
+    padding: 3em;
+    height: fit-content;
+}
+
+#order{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5em  solid black;
+    
+    padding: 3em;
+    height: fit-content;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+}
